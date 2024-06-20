@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.todo-item {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 10px;
+}
+.completed {
+  text-decoration: line-through;
+}
+/* .inner-container {
+  background-color: white;
+} */
+.delete-btn {
+  background-color: white;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+.title-container {
+  margin-left: 20px;
+}
+.but-container {
+  justify-self: flex-end;
+}
+.edit-buts {
+  background-color: #ec627b;
+  border: solid 2px burlywood;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: antiquewhite;
+  margin-left: 20px;
+}
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
+  }
+}
